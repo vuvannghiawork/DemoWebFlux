@@ -13,3 +13,11 @@ services:
       - "./python:/app"
     ports:
       - "8000:8000"
+
+  # TODO: Do Java không auto load lại khi build thành file .jar
+  # webflux:
+  #   build:
+  #     context: "./demo"
+  #     dockerfile: "Dockerfile"
+  #   ports:
+  #     - "8080:8080"
