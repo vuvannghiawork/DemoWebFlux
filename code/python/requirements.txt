@@ -1,0 +1,6 @@
+environs==9.5.0
+loguru==0.7.2
+uvicorn==0.30.6
+fastapi==0.114.2
+
+Faker==36.1.1
